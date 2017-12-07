@@ -1,6 +1,6 @@
 info:
-  description: Spring Cloud Samples
-  url: https://github.com/spring-cloud-samples
+  description: Spring Cloud Samples dev environment
+  url: https://github.com/markWord/config-repo
 eureka:
   client:
     serviceUrl:
