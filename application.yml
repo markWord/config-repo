@@ -40,7 +40,8 @@ ribbon:
   ConnectTimeout: 3000
   ReadTimeout: 60000
 xxx: aaa
----
+
+
 spring:
   profiles: test
   cloud:
