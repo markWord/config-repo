@@ -7,7 +7,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
       
 foo: baz
-
+---
 spring:
   profiles: dev
   cloud:
@@ -39,20 +39,4 @@ ribbon:
   ConnectTimeout: 3000
   ReadTimeout: 60000
 xxx: aaa
-
----
-spring:
-  profiles: test
-  cloud:
-    config:
-      uri: http://${CONFIGSERVER_1_PORT_8888_TCP_ADDR:localhost}:8888
-endpoints:
-  restart: enabled
-eureka:
-  instance:
-    nonSecurePort: 80
-    preferIpAddress: true
-  client:
-    serviceUrl:
-      defaultZone: http://${EUREKA_1_PORT_8761_TCP_ADDR:localhost}:8761/eureka/
 
