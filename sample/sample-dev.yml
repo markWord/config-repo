@@ -1,1 +1,2 @@
 env:dev
+sampleProject: spring cloud config client sample-dev
