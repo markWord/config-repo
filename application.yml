@@ -40,7 +40,7 @@ ribbon:
   ConnectTimeout: 3000
   ReadTimeout: 60000
 xxx: aaa
-sampleProject: applicationDev
+sampleProject1: applicationDev
 
 ---
 spring:
