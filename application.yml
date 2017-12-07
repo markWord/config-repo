@@ -8,6 +8,7 @@ eureka:
       
 foo: baz
 
+---
 spring:
   profiles: dev
   cloud:
@@ -40,6 +41,7 @@ ribbon:
   ReadTimeout: 60000
 xxx: aaa
 
+---
 spring:
   profiles: test
   cloud:
