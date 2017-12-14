@@ -3,9 +3,9 @@ spring:
     schema: classpath:/mysql.sql
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://mysql:3306/?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://192.168.9.224:3306/zipkin_spring_cloud
     username: root
-    password: 1234
+    password: ycf_test
     initialize: true
     continueOnError: true
   sleuth:
